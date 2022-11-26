@@ -141,8 +141,48 @@ img {
     .container {
         width: 100vw;
     }
-    
-}
 
+    .body {
+        background-color: rgba(34,34,34,255);
+    }
+
+    .container > .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .container .col {
+        width: 100%;
+    }
+
+    .lessons {
+        margin: 0rem 0;
+        padding: 0 0 3rem 0;
+        background-color: #232946;
+    }
+    
+    .steps {
+        margin: 0rem 0;
+        padding: 3rem 0;
+        background: #eebbc3;
+    }
+
+  
+    .why-us {
+        margin: 0rem 0;
+        padding: 3rem 0;
+        background-color: rgba(34,34,34,255);
+    }
+
+    .container .card {
+        padding: 1rem 0;
+    }
+
+
+
+   
+}
 
 
